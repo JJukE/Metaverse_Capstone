@@ -17,7 +17,7 @@ public class Button_MainBody : MonoBehaviour
 
     public void ButtonOn()
     {
-        Debug.Log("Button ON");
+        //Debug.Log("Button ON");
         if (istransparent == false)
         {
             changeAlpha(mainbody.GetComponent<Renderer>().material, alpha1);
