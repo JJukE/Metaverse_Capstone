@@ -238,11 +238,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 790089557}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d90fb8f859824c90888d45203a62e34, type: 3}
+  m_Script: {fileID: 11500000, guid: f970ea55f9f84bf79b05dab180b8c125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shell: {x: 0, y: 0, z: 0}
-  shellObjCopy: {fileID: 0}
+  BenchmarkType: 0
+  TMProFont: {fileID: 0}
+  TextMeshFont: {fileID: 0}
 --- !u!114 &790089560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -795,8 +796,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d90fb8f859824c90888d45203a62e34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shell: {x: 0, y: 0, z: 0}
-  shellObjCopy: {fileID: 1808126282}
 --- !u!1 &1809812634
 GameObject:
   m_ObjectHideFlags: 0
